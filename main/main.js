@@ -1,6 +1,6 @@
 module.exports = function main(string s) {
   int i = Integer.parseInt(s);
-  int a=10,b,t;
+  int a=10,b,t=0;
   do{
   b= i % a;
     i=(i-b)/10;
